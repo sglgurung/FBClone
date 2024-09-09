@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ nav {
 }
 
 nav .left .logo img {
-  width: 100px ;
+  width: 100px;
   margin: 5px 0;
   cursor: pointer;
 }
@@ -52,11 +52,11 @@ nav .left .search_bar i {
 }
 
 nav .left .search_bar input {
- background: transparent;
- outline: none;
- border: 0;
- font-size: 16px;
- width: 200px;
+  background: transparent;
+  outline: none;
+  border: 0;
+  font-size: 16px;
+  width: 200px;
 }
 
 nav .center {
@@ -109,6 +109,7 @@ nav .right img {
   display: flex;
   margin-top: 60px;
   background: #f5f5f5;
+  width: 100%;
 }
 
 .main .left {
@@ -217,15 +218,16 @@ nav .right img {
 .main .center .top_box {
   width: 100%;
   height: 260px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  gap: 4px;
 }
+
+
 
 .main .center .top_box .mystory-card {
   width: 125px;
   height: 250px;
   overflow: hidden;
-  margin: 0 auto;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   cursor: pointer;
@@ -256,6 +258,7 @@ nav .right img {
   position: relative;
   bottom: 15px;
   border-radius: 50%;
+
 }
 
 .main .center .top_box .mystory-card .story-upload .story-tag {
@@ -272,10 +275,8 @@ nav .right img {
   width: 125px;
   height: 250px;
   overflow: hidden;
-  margin: 0 auto; /*--margin 0 auto */
   border-radius: 10px;
   cursor: pointer;
-  margin-left: 9px;
   border-radius: 7px;
 }
 
@@ -324,7 +325,7 @@ nav .right img {
 }
 
 .main .center .my-post {
-  width : 100%;
+  width: 100%;
   height: auto;
   background: #fff;
   padding: 10px 15px;
@@ -358,7 +359,7 @@ nav .right img {
   font-size: 17px;
 }
 
-.main .center .my-post .post-top input:hover{
+.main .center .my-post .post-top input:hover {
   background: #e3e3e3;
   cursor: pointer;
 }
@@ -400,7 +401,7 @@ nav .right img {
 
 .main .center .my-post .post-bottom .post-icon i.green {
   font-size: 23px;
-  color:#27cc37;
+  color: #27cc37;
   margin-right: 8px;
 }
 
